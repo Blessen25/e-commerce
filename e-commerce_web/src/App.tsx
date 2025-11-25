@@ -1,8 +1,10 @@
+import { SaleBanner } from "./components/extras"
+
 const App = () => {
 
   return(
     <>
-
+      <SaleBanner />
     </>
   )
 }
