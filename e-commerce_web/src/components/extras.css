@@ -5,10 +5,39 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    height: 30px;
+    height: 36px;
 }
 
 .sale-banner h1, .sale-banner a {
 
     color: white;
+    text-decoration: none;
 }
+
+@media screen and (max-width: 967px) {
+    
+    .sale-banner {
+
+        height: 32px;
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    
+    .sale-banner {
+
+        height: 24px;
+        gap: 6px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    
+    .sale-banner {
+
+        height: 18px;
+        gap: 4px;
+    }
+}
+
