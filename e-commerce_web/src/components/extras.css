@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     height: 36px;
 }
 
@@ -14,12 +14,36 @@
     text-decoration: none;
 }
 
+.shop_now {
+
+    position: relative;
+    transition: all 0.7s ease;
+
+}
+
+.shop_now::after {
+
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 1px;
+    width: 0%;
+    background-color: white;
+    transition: all 0.7s ease;
+}
+
+.shop_now:hover::after {
+
+    width: 100%;
+}
+
 @media screen and (max-width: 967px) {
     
     .sale-banner {
 
         height: 32px;
-        gap: 8px;
+        gap: 6px;
     }
 }
 
@@ -28,7 +52,7 @@
     .sale-banner {
 
         height: 24px;
-        gap: 6px;
+        gap: 4px;
     }
 }
 
