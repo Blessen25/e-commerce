@@ -12,4 +12,18 @@ const SaleBanner = () => {
     )
 }
 
-export { SaleBanner}
+const MainContainer = () => {
+
+    return(
+
+        <>
+        <div className="centercontainer">
+                <div className="maincontainer">
+                    
+                </div>
+        </div>
+        </>
+    )
+}
+
+export { SaleBanner, MainContainer}

@@ -1,3 +1,4 @@
+import { MainContainer } from "../extras"
 import "./header.css"
 
 const HeaderComp = () => {
@@ -7,7 +8,7 @@ const HeaderComp = () => {
         <>
             <div id="header">
                 <div className="headerdiv">
-
+                    <MainContainer />
                 </div>
             </div>
         </>
