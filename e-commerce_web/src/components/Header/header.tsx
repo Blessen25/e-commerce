@@ -1,9 +1,15 @@
+import "./header.css"
+
 const HeaderComp = () => {
 
     return(
 
         <>
-            <h1>sadsad</h1>
+            <div id="header">
+                <div className="headerdiv">
+
+                </div>
+            </div>
         </>
     )
 }
