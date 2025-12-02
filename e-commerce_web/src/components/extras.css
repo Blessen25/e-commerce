@@ -46,8 +46,6 @@
 .maincontainer {
 
     min-width: 1350px;
-    border: 2px solid black;
-    height: 80px;
 
 }
 
@@ -64,7 +62,7 @@
     
     .maincontainer {
 
-        min-width: 1000px;
+        min-width: 950px;
     }
 }
 
@@ -74,6 +72,11 @@
 
         height: 32px;
         gap: 6px;
+    }
+
+    .maincontainer {
+
+        min-width: 100%;
     }
 }
 
