@@ -1,3 +1,4 @@
+import type { MainContainerProps } from '../interface';
 import './extras.css';
 
 const SaleBanner = () => {
@@ -12,14 +13,14 @@ const SaleBanner = () => {
     )
 }
 
-const MainContainer = () => {
+const MainContainer:React.FC<MainContainerProps> = (props) => {
 
     return(
 
         <>
         <div className="centercontainer">
-                <div className="maincontainer">
-                    
+                <div className={`maincontainer ${props.cstm_class ? props.cstm_class : ""}`} style={props.cstm_style ? props.cstm_style : {}} >
+                    {props.child}
                 </div>
         </div>
         </>

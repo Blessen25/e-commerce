@@ -8,7 +8,20 @@ const HeaderComp = () => {
         <>
             <div id="header">
                 <div className="headerdiv">
-                    <MainContainer />
+                    <MainContainer 
+                        child = {
+                            <>
+                                <div className="headermain">
+                                    <div className="headerlogo">
+                                        <div className="logoname">
+                                            <div className="logo">BVM</div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </>
+                        }
+                     />
                 </div>
             </div>
         </>
