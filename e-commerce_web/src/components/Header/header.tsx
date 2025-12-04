@@ -15,8 +15,12 @@ const HeaderComp = () => {
                                     <div className="headerlogo">
                                         <div className="logoname">
                                             <div className="logo">BVM</div>
-                                        
                                         </div>
+                                    </div>
+                                    <div className="logodetails">
+                                            <a href="#">Home</a>
+                                            <a href="#">About</a>
+                                            <a href="#">Contact</a>
                                     </div>
                                 </div>
                             </>
