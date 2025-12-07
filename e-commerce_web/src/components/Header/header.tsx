@@ -1,8 +1,10 @@
-import { MainContainer } from "../extras"
+import { use, useState } from "react"
+import { Button_Comp, MainContainer } from "../extras"
 import "./header.css"
 
 const HeaderComp = () => {
 
+    const [Login, setLogin] = useState(false);
     return(
 
         <>
@@ -27,11 +29,18 @@ const HeaderComp = () => {
                                             <input type="text" placeholder="Search products..." className="seachbar"/>
                                             <i className="fa-solid fa-magnifying-glass icon-font-normal"></i>
                                         </div>
+                                        {Login ? (
+                                        <>
                                         <i className="fa-regular fa-heart icon-font-normal"></i>                                        
                                         <i className="fa-regular fa-user icon-font-normal"></i>
                                         <i className="fa-solid fa-cart-shopping icon-font-normal"></i>
-                                        <a href="#">Signup</a>
-
+                                        </>
+                                        ) : (
+                                            <>
+                                            <a href="#">Register</a>
+                                            <Button_Comp text='Signup'/>
+                                            </>
+                                        )}                                        
                                     </div>
                                 </div>
                             </>

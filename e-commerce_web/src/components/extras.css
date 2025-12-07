@@ -51,6 +51,20 @@
 .buttonCstm {
 
     background-color:#FFC934;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+    border: 1px solid #FFC934;    
+
+}
+
+.buttonCstm:hover {
+
+    box-shadow: inset 0px 70px 0px 0px white;
+    border: 1px solid #FFC934;    
 }
 
 @media screen and (max-width: 1500px) {
