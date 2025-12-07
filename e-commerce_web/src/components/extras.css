@@ -48,6 +48,11 @@
     min-width: 1350px;
 }
 
+.buttonCstm {
+
+    background-color:#FFC934;
+}
+
 @media screen and (max-width: 1500px) {
     
 

@@ -17,11 +17,12 @@
     align-items: center;
 }
 
-.logodetails {
+.headerdetails {
 
     display: flex;
-    gap: 20px;
-    
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
 }
 
 .logoname {
@@ -40,6 +41,51 @@
     border-radius: 5px;
     border: 1px solid black;
 }
+
+.seachbar {
+
+    padding: 6px 34px 6px 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 25px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+.headersearchbar {
+
+    position: relative;
+}
+
+.fa-magnifying-glass {
+
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #424242;
+    transition: all .7s ease;
+}
+
+.fa-magnifying-glass:hover {
+
+    cursor: pointer;
+    color: #000000;
+}
+
+.seachbar:focus {
+
+    outline: none;
+}
+
+.headerthirdsection {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 @media screen and (max-width: 1500px) {
     
    

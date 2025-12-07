@@ -1,4 +1,4 @@
-import type { MainContainerProps } from '../interface';
+import type { Button_CompProps, MainContainerProps } from '../interface';
 import './extras.css';
 
 const SaleBanner = () => {
@@ -27,4 +27,26 @@ const MainContainer:React.FC<MainContainerProps> = (props) => {
     )
 }
 
-export { SaleBanner, MainContainer}
+const Button_Comp:React.FC<Button_CompProps> = (props) => {
+
+    return(
+        <>
+            <a href={`${props.route ? props.route : '#'}`} className={`buttonCstm ${props.cstm_class ? props.cstm_class : ""}`} style={props.cstm_style ? props.cstm_style : {}} onClick={props.onClick}>{props.text}</a>
+        </>
+    )
+}
+
+const Button_withIcon = () => {
+
+    return(
+
+        <>
+        
+        
+        </>
+    )
+}
+
+
+
+export { SaleBanner, MainContainer, Button_Comp, Button_withIcon}

@@ -69,6 +69,11 @@
   font-size: 34px;
 }
 
+.icon-font-normal {
+
+  font-size: 16px;
+}
+
 @media screen and (max-width: 967px) {
   
   .para-big {
@@ -98,6 +103,11 @@
   .head-big {
   
     font-size: 30px;
+  }
+
+  .icon-font-normal {
+
+   font-size: 14px;
   }
 }
 
@@ -131,6 +141,12 @@
   
     font-size: 28px;
   }
+
+  .icon-font-normal {
+
+   font-size: 12px;
+  }
+  
 }
 
 @media screen and (max-width: 575px) {
@@ -162,6 +178,11 @@
   .head-big {
   
     font-size: 22px;
+  }
+
+  .icon-font-normal {
+
+   font-size: 10px;
   }
 }
 
