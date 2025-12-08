@@ -85,6 +85,21 @@
     justify-content: space-between;
 }
 
+.headeratxt {
+
+    text-decoration: none;
+    color: black;
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+.headeratxt:hover {
+
+    color: #FFC934;
+}
+
+
+
 
 @media screen and (max-width: 1500px) {
     

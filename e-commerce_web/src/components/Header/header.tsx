@@ -1,6 +1,7 @@
 import { use, useState } from "react"
-import { Button_Comp, MainContainer } from "../extras"
+import { Button_Comp, Button_withIcon, MainContainer } from "../extras"
 import "./header.css"
+import { BsPerson } from "react-icons/bs";
 
 const HeaderComp = () => {
 
@@ -20,9 +21,9 @@ const HeaderComp = () => {
                                         </div>
                                     </div>
                                     <div className="headerdetails">
-                                            <a href="#">Home</a>
-                                            <a href="#">About</a>
-                                            <a href="#">Contact</a>
+                                            <a href="#" className="headeratxt">Home</a>
+                                            <a href="#" className="headeratxt">About</a>
+                                            <a href="#" className="headeratxt">Contact</a>
                                     </div>
                                     <div className="headerthirdsection">
                                         <div className="headersearchbar">
@@ -37,8 +38,8 @@ const HeaderComp = () => {
                                         </>
                                         ) : (
                                             <>
-                                            <a href="#">Register</a>
-                                            <Button_Comp text='Signup'/>
+                                            <a href="#" className="headeratxt">Register</a>
+                                            <Button_withIcon text="Login" icon={<BsPerson />}/>
                                             </>
                                         )}                                        
                                     </div>

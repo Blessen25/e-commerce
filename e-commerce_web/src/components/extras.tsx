@@ -36,12 +36,27 @@ const Button_Comp:React.FC<Button_CompProps> = (props) => {
     )
 }
 
-const Button_withIcon = () => {
+const Button_withIcon:React.FC<Button_CompProps> = (props) => {
 
     return(
 
         <>
-        
+            <a href={`${props.route ? props.route : '#'}`} 
+            className={`buttonCstm buttoncstm_withicon ${props.cstm_class ? props.cstm_class : ""}`}
+            style={props.cstm_style ? props.cstm_style : {}}
+            onClick={props.onClick}>
+            {props.iconPosition === "right" ? (
+                <>
+                    <span>{props.text}</span>
+                    {props.icon && <span className="buttonIcon">{props.icon}</span>}
+                </>
+            ): (
+                <>
+                    {props.icon && <span className="buttonIcon">{props.icon}</span>}
+                    <span>{props.text}</span>
+                </>
+            )}              
+            </a>
         
         </>
     )

@@ -67,6 +67,20 @@
     border: 1px solid #FFC934;    
 }
 
+.buttoncstm_withicon {
+
+    display: flex;
+    align-items: center !important;
+    gap: 6px;
+    justify-content: center;
+}
+
+.buttoncstm_withicon span {
+
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (max-width: 1500px) {
     
 

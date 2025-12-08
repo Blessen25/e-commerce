@@ -12,5 +12,6 @@ export interface Button_CompProps {
     cstm_style ?: React.CSSProperties;
     onClick ?: () => void;
     icon ?: React.ReactNode;
+    iconPosition?: "left" | "right";
     route ?: string;
 }
