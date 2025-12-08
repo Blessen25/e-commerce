@@ -21,9 +21,9 @@ const HeaderComp = () => {
                                         </div>
                                     </div>
                                     <div className="headerdetails">
-                                            <a href="#" className="headeratxt">Home</a>
-                                            <a href="#" className="headeratxt">About</a>
-                                            <a href="#" className="headeratxt">Contact</a>
+                                            <a href="#" className="headeratxt para-normal font-wei-500">Home</a>
+                                            <a href="#" className="headeratxt para-normal font-wei-500">About</a>
+                                            <a href="#" className="headeratxt para-normal font-wei-500">Contact</a>
                                     </div>
                                     <div className="headerthirdsection">
                                         <div className="headersearchbar">
@@ -38,8 +38,8 @@ const HeaderComp = () => {
                                         </>
                                         ) : (
                                             <>
-                                            <a href="#" className="headeratxt">Register</a>
-                                            <Button_withIcon text="Login" icon={<BsPerson />}/>
+                                            <a href="#" className="headeratxt para-normal font-wei-500">Register</a>
+                                            <Button_withIcon text="Login" icon={<BsPerson />} cstm_class="para-normal font-wei-500" iconclass="font-wei-500"/>
                                             </>
                                         )}                                        
                                     </div>

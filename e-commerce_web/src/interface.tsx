@@ -14,4 +14,5 @@ export interface Button_CompProps {
     icon ?: React.ReactNode;
     iconPosition?: "left" | "right";
     route ?: string;
+    iconclass ?: string;
 }

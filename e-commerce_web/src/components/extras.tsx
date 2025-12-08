@@ -48,11 +48,11 @@ const Button_withIcon:React.FC<Button_CompProps> = (props) => {
             {props.iconPosition === "right" ? (
                 <>
                     <span>{props.text}</span>
-                    {props.icon && <span className="buttonIcon">{props.icon}</span>}
+                    {props.icon && <span className={`buttonIcon icon-font-normal ${props.iconclass ? props.iconclass : ""}`}>{props.icon}</span>}
                 </>
             ): (
                 <>
-                    {props.icon && <span className="buttonIcon">{props.icon}</span>}
+                    {props.icon && <span className={`buttonIcon icon-font-normal ${props.iconclass ? props.iconclass : ""}`}>{props.icon}</span>}
                     <span>{props.text}</span>
                 </>
             )}              

@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
 * {
 
   border: 0px;
   margin: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .font-wei-400 {
 
   font-weight: 400;
+}
+
+.font-wei-500 {
+
+  font-weight: 500;
 }
 
 .font-wei-600 {
