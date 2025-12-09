@@ -107,7 +107,15 @@
 }
 
 @media screen and (max-width: 1199px) {
-    
+    .seachbar {
+
+        width: 150px;
+    }
+
+    .headerdetails  {
+
+        width: 230px;
+    }
     
 }
 

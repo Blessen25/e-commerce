@@ -98,7 +98,7 @@
     }
 }
 
-@media screen and (max-width: 967px) {
+@media screen and (max-width: 991px) {
     
     .sale-banner {
 
@@ -109,6 +109,12 @@
     .maincontainer {
 
         min-width: 100%;
+    }
+
+    .centercontainer {
+
+        width: 100%;
+        padding: 0px 20px;
     }
 }
 
@@ -127,6 +133,11 @@
 
         height: 18px;
         gap: 4px;
+    }
+
+    .centercontainer {
+
+        padding: 0px 15px;
     }
 }
 
