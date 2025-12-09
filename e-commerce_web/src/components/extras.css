@@ -81,6 +81,11 @@
     align-items: center;
 }
 
+.details-icon {
+
+    display: none;
+}
+
 @media screen and (max-width: 1500px) {
     
 
@@ -125,6 +130,11 @@
         height: 24px;
         gap: 4px;
     }
+
+    .buttonCstm {
+
+        padding: 8px 12px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -138,6 +148,11 @@
     .centercontainer {
 
         padding: 0px 15px;
+    }
+
+    .buttonCstm {
+
+        padding: 6px 12px;
     }
 }
 

@@ -16,6 +16,9 @@ const HeaderComp = () => {
                             <>
                                 <div className="headermain">
                                     <div className="headerlogo">
+                                        <div className="details-icon">
+                                            <i className="fa-solid fa-align-left"></i>
+                                        </div>
                                         <div className="logoname">
                                             <div className="logo">BVM</div>
                                         </div>
@@ -27,7 +30,7 @@ const HeaderComp = () => {
                                     </div>
                                     <div className="headerthirdsection">
                                         <div className="headersearchbar">
-                                            <input type="text" placeholder="Search products..." className="seachbar"/>
+                                            <input type="text" placeholder="Search products..." className="seachbar para-normal"/>
                                             <i className="fa-solid fa-magnifying-glass icon-font-normal"></i>
                                         </div>
                                         {Login ? (
