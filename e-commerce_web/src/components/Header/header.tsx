@@ -5,7 +5,8 @@ import { BsPerson } from "react-icons/bs";
 
 const HeaderComp = () => {
 
-    const [Login, setLogin] = useState(false);
+    const [login, setLogin] = useState(false);
+    const [activeSidebar, setActiveSidebar] = useState(true);
     return(
 
         <>
@@ -33,7 +34,7 @@ const HeaderComp = () => {
                                             <input type="text" placeholder="Search products..." className="seachbar para-normal"/>
                                             <i className="fa-solid fa-magnifying-glass icon-font-normal"></i>
                                         </div>
-                                        {Login ? (
+                                        {login ? (
                                         <>
                                         <i className="fa-regular fa-heart icon-font-normal"></i>                                        
                                         <i className="fa-regular fa-user icon-font-normal"></i>
@@ -47,6 +48,14 @@ const HeaderComp = () => {
                                         )}                                        
                                     </div>
                                 </div>
+                                {activeSidebar && (
+
+                                    <>  
+                                        <div className="sidebar">
+                                            
+                                        </div>
+                                    </>
+                                )}
                             </>
                         }
                      />

@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .headermain {
@@ -104,6 +105,8 @@
 }
 
 
+
+
 @media screen and (max-width: 1500px) {
     
    
@@ -163,9 +166,24 @@
         display: block;
     }
 
+    .sidebar {
+    
+        visibility: visible;
+    }
+
     .fa-magnifying-glass {
 
         top: 11px;
+    }
+    
+    .sidebar {
+
+        position: fixed;
+        width: 250px;
+        height: 100%;
+        border: 2px solid black;
+        top: 102px;
+        left: 0px;
     }
 }
 
@@ -190,6 +208,11 @@
     .fa-align-left {
 
         font-size: 22px;
+     }
+
+     .sidebar {
+
+        top: 89px;
      }
 }
 
@@ -230,5 +253,10 @@
 
         gap: 15px;
     }
+
+    .sidebar {
+
+        top: 83px;
+     }
 }
 
