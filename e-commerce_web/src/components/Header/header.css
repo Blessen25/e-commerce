@@ -184,7 +184,10 @@
         border: 2px solid black;
         top: 102px;
         left: 0px;
+        z-index: 9999;
     }
+
+    
 }
 
 @media screen and (max-width: 765px) {
@@ -257,6 +260,7 @@
     .sidebar {
 
         top: 83px;
+        width: 220px;
      }
 }
 
