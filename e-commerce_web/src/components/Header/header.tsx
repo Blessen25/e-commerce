@@ -56,6 +56,7 @@ const HeaderComp = () => {
                                 {activeSidebar && (
 
                                     <>  
+                                        <div className="outlay"></div>
                                         <div className="sidebar">
                                             
                                         </div>
