@@ -104,6 +104,11 @@
     display: none;
 }
 
+.active-icon {
+
+    color: #FFC934 !important;
+    transition: all 0.7s ease;
+}
 
 
 
@@ -158,6 +163,7 @@
         transition: all .7s ease;
         font-weight: bold;
         font-size: 26px;
+        transition: all 0.7s ease;
     }
 
     

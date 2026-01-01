@@ -7,6 +7,11 @@ const HeaderComp = () => {
 
     const [login, setLogin] = useState(false);
     const [activeSidebar, setActiveSidebar] = useState(true);
+    const toggleSidebar = () => {
+
+        setActiveSidebar(!activeSidebar);
+    }
+
     return(
 
         <>
@@ -18,7 +23,7 @@ const HeaderComp = () => {
                                 <div className="headermain">
                                     <div className="headerlogo">
                                         <div className="details-icon">
-                                            <i className="fa-solid fa-align-left"></i>
+                                            <i className={`fa-solid fa-align-left ${activeSidebar ? 'active-icon' : ''} `} onClick={toggleSidebar}></i>
                                         </div>
                                         <div className="logoname">
                                             <div className="logo">BVM</div>
