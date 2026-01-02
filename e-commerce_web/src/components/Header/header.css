@@ -218,6 +218,11 @@
 
 @media screen and (max-width: 765px) {
     
+    :root {
+
+        --header-h: 60px;
+    }
+
     .headerdiv {
 
         height: 60px;
@@ -247,6 +252,11 @@
 
 @media screen and (max-width: 575px) {
     
+    :root {
+
+        --sidebar-w: 220px;
+    }
+
     .headerthirdsection {
 
         gap: 15px;
