@@ -1,6 +1,6 @@
 :root {
     
-  --header-h: 85px;      
+  --header-h: 85px;   
 }
 
 .headerdiv {
@@ -123,6 +123,7 @@
 }
 
 @media screen and (max-width: 1199px) {
+
     .seachbar {
 
         width: 150px;
@@ -136,6 +137,12 @@
 }
 
 @media screen and (max-width: 991px) {
+
+    :root {
+
+        --header-h: 65px;
+        --sidebar-w: 250px;
+    }
     
     .headerdiv {
 
