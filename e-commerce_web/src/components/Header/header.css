@@ -1,6 +1,8 @@
 :root {
     
   --header-h: 85px;   
+  --banner-h : 36px;
+
 }
 
 .headerdiv {
@@ -142,6 +144,8 @@
 
         --header-h: 65px;
         --sidebar-w: 250px;
+        --banner-h : 32px;
+
     }
     
     .headerdiv {
@@ -210,7 +214,7 @@
         position: fixed;
         width: 100%;
         height: 100%;
-        top: 0px;
+        top: calc(var(--header-h) + var(--banner-h) + 1px);
         left: 0px;
         background-color: rgba(0, 0, 0, 0.5);
     }
@@ -221,6 +225,8 @@
     :root {
 
         --header-h: 60px;
+        --banner-h : 24px;
+
     }
 
     .headerdiv {
@@ -255,6 +261,8 @@
     :root {
 
         --sidebar-w: 220px;
+        --banner-h : 18px;
+
     }
 
     .headerthirdsection {
