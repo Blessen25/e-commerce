@@ -203,10 +203,19 @@
         position: fixed;
         width: 250px;
         height: 100%;
-        top: 102px;
+        top: calc(var(--header-h) + var(--banner-h) + 3px);
         left: 0px;
-        z-index: 9999;
+        z-index: 1000;
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
+        
+
     }
 
     .outlay {
@@ -216,6 +225,7 @@
         height: 100%;
         top: calc(var(--header-h) + var(--banner-h) + 1px);
         left: 0px;
+        z-index: 999;
         background-color: rgba(0, 0, 0, 0.5);
     }
 }
@@ -248,11 +258,6 @@
     .fa-align-left {
 
         font-size: 22px;
-     }
-
-     .sidebar {
-
-        top: 89px;
      }
 }
 
@@ -303,7 +308,6 @@
 
     .sidebar {
 
-        top: 83px;
         width: 220px;
      }
 }
