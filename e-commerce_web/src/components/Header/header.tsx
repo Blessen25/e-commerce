@@ -5,7 +5,7 @@ import { BsPerson } from "react-icons/bs";
 
 const HeaderComp = () => {
 
-    const [login, setLogin] = useState(false);
+    const [login, setLogin] = useState(true);
     const [activeSidebar, setActiveSidebar] = useState(true);
     const toggleSidebar = () => {
 
@@ -59,6 +59,14 @@ const HeaderComp = () => {
                                         <div className="outlay"></div>
                                         <div className="sidebar">
                                             
+                                            <a href="#" className="para-normal"><i className="fa-solid fa-house"></i>Home</a>
+                                            <a href="#" className="para-normal"><i className="fa-solid fa-circle-info"></i>About</a>
+                                            <a href="#" className="para-normal"><i className="fa-solid fa-phone"></i>Contact</a>
+                                            {login ? (
+                                                <>
+                                                    <a href="#" className="para-normal"><i className="fa-solid fa-user"></i>Profile</a>
+                                                </>
+                                            ) : ''}
                                         </div>
                                         
                                     </>
