@@ -59,12 +59,12 @@ const HeaderComp = () => {
                                         <div className="outlay"></div>
                                         <div className="sidebar">
                                             
-                                            <a href="#" className="para-normal"><i className="fa-solid fa-house"></i>Home</a>
-                                            <a href="#" className="para-normal"><i className="fa-solid fa-circle-info"></i>About</a>
-                                            <a href="#" className="para-normal"><i className="fa-solid fa-phone"></i>Contact</a>
+                                            <a href="#" className="para-normal sidebaratag"><i className="fa-solid fa-house"></i>Home</a>
+                                            <a href="#" className="para-normal sidebaratag"><i className="fa-solid fa-circle-info"></i>About</a>
+                                            <a href="#" className="para-normal sidebaratag"><i className="fa-solid fa-phone"></i>Contact</a>
                                             {login ? (
                                                 <>
-                                                    <a href="#" className="para-normal"><i className="fa-solid fa-user"></i>Profile</a>
+                                                    <a href="#" className="para-normal sidebaratag"><i className="fa-solid fa-user"></i>Profile</a>
                                                 </>
                                             ) : ''}
                                         </div>
